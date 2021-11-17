@@ -17,6 +17,10 @@ for 5 days: 14/29
 
 for 10 days: 372/773
 
+# Run the script
+
+python /path/to/graduation.py
+
 # Testing
 
-There are sample test cases hardcoded in findProbability(academic_days_list) which can be edited as per the need
+There are sample test cases hardcoded in find_probability(academic_days_list) which can be edited as per the need

@@ -57,7 +57,7 @@ def find_probability(academic_days_list: list) -> str:
         print(str(number_of_ways_absent(n)) + "/" + str(number_of_ways_to_attend(n)))
   
 if __name__ == "__main__":
-    num_ways_attend = {}
-    num_ways_absent = {}
+    num_ways_attend = dict()
+    num_ways_absent = dict()
     academic_days_list = [5, 10]
     find_probability(academic_days_list)

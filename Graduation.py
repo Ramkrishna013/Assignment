@@ -43,7 +43,7 @@ def number_of_ways_absent(n: int) -> int:
         num_ways_absent[n] = number_of_ways_absent(n-4)+number_of_ways_absent(n-3)+number_of_ways_absent(n-2)+number_of_ways_absent(n-1)
     return num_ways_absent[n]
 
-def findProbability(academic_days_list: list) -> str:
+def find_probability(academic_days_list: list) -> str:
     """
     Returns the probability that a student will miss the graduation day
 
@@ -60,4 +60,4 @@ if __name__ == "__main__":
     num_ways_attend = {}
     num_ways_absent = {}
     academic_days_list = [5, 10]
-    findProbability(academic_days_list)
+    find_probability(academic_days_list)
